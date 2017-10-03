@@ -1,0 +1,17 @@
+VCD info: dumpfile miniproc_dump.vcd opened for output.
+--------------------------------------------------------------- 
+|          if (EXPECTED === ACTUAL) pass; else fail.          | 
+--------------------------------------------------------------- 
+ [PASS]         18  + 3             EXPECTED = 21, ACTUAL = 21
+ [PASS]         15  - 5             EXPECTED = 10, ACTUAL = 10
+ [PASS]         12  * 7             EXPECTED = 84, ACTUAL = 84
+ [PASS]          9 << 2             EXPECTED = 36, ACTUAL = 36
+ [PASS]         84 >> 1             EXPECTED = 42, ACTUAL = 42
+ [PASS]         21  & 6             EXPECTED =  4, ACTUAL =  4
+ [PASS]         10  | 4             EXPECTED = 14, ACTUAL = 14
+ [PASS]         36 ~| 42            EXPECTED = 4294967249, ACTUAL = 4294967249
+ [PASS]          4  < 14            EXPECTED =  1, ACTUAL =  1
+ [PASS] 4294967249  < 8             EXPECTED =  0, ACTUAL =  0
+--------------------------------------------------------------- 
+|                    [RESULT] 10 out of 10.                   |
+--------------------------------------------------------------- 
